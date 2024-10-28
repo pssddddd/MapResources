@@ -14,13 +14,17 @@
 #### 使用过程
 
 双击运行MapRelease.exe启动程序。
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/1.png)
 
 双击上述图标以启动程序。系统初始启动后显示主界面，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/2.png)
 
 启动系统后默认为锁定状态，输入密码解锁。初始密码为 **admin** ，如下图所示： 
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/3.png)
+
 标注1：用于系统临时锁定或锁定密码修改；
 标注2：隐藏的日志显示，使用鼠标拖动可显示日志；
 标注3：系统关于界面。
@@ -30,10 +34,13 @@
 1.  发布管理
 在资源发布功能中，新建任务时，用户需填写一系列参数，包括黑名单、白名单、发布地址以及相关的地图资源信息。通过设置黑名单和白名单，用户可以精确控制哪些用户或设备可以访问发布的资源，从而确保数据的安全性。此外，指定的发布地址和地图资源则确保了用户能够顺利共享和管理所需的地图数据。
 - 点击左上角新建按钮，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/4.png)
 
 - 新建界面，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/5.png)
+
 输入对应参数即可对资源进行发布。具体参数含义如下：
 黑名单：用于阻止特定用户或设备访问发布的地图资源，提升数据安全性；
 白名单：用于允许特定用户或设备访问发布的地图资源，确保安全访问权限；
@@ -43,15 +50,19 @@
 地图资源：用于地图瓦图资源发布，资源可以是瓦图资源或是压缩的瓦图资源，允许同时对多个资源进行发布；
 
 - 输入参数保存，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/6.png)
 
 2.  下载管理
 下载管理功能通过瓦图地址让用户高效获取地图资源，并支持通道和代理配置，确保下载过程在不同网络条件下的稳定性与速度。用户可以根据需求灵活调整配置，实现优化下载体验。同时，系统提供实时下载进度显示，使用户能够全程监控下载状态，提升地图资源的获取效率。
 - 点击左上角新建按钮，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/7.png)
 
 - 新建界面，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/8.png)
+
 输入对应参数即可对地图资源进行下载。具体参数含义如下：
 层数选择：选择需要下载的层数，未选择的层数将进行忽略；
 下载地址：包含x、y、z的瓦图地址，通常有Google、ArcGIS、天地图、高德、百度等，输入地址后可点击地址后预览按钮，点击后地图将进行重新加载；
@@ -65,18 +76,23 @@
 下载范围：默认为全球下载(值为0)，可通过输入或框选需要下载的区域。
 
 -  输入参数保存，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/9.png)
 
 -  下载后瓦片数据，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/10.png)
 
 3.  压缩管理
 压缩管理功能允许用户将地图瓦图资源进行高效压缩，既可以将所有资源打包成一个文件，也可以按层级拆分为多个文件，以减少磁盘空间占用并简化部署。压缩后的资源仍可用于发布，用户能够灵活选择适合的压缩方式，提升资源管理的效率和便捷性。
 - 点击左上角新建按钮，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/11.png)
 
 - 新建界面，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/12.png)
+
 输入对用参数即可对资源进行发布。具体参数含义如下：
 层数选择：选择需要压缩的层数，未选择的层数将进行忽略；
 资源目录：表示瓦图存储目录，目录结构为z/x/y.png；
@@ -88,20 +104,25 @@
 文件校验：表示在写入压缩文件时校验文件是否有重复数据，此选项会大幅降低写入速度。
 
 - 输入参数保存，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/13.png)
 
 3.  其他介绍
 - 系统锁定
 点击界面左下角，选择锁定，系统将进入锁定状态，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/14.png)
 
 - 修改密码
 点击界面左下角，选择设置，系统将弹出密码修改界面，如下图所示：
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/15.png)
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/16.png)
 
 - 关于
 用于描述版本信息、免责申明等。
+
 ![输入图片说明](https://gitee.com/pssddddd/map-resources/raw/master/Other/17.png)
 
 #### 更新历史
